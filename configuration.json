@@ -1,68 +1,57 @@
 [
     {
-    "key": "BaseUrl",
-    "type": "textarea",
-    "defaultValue": "https://api.eu.adp.com",
-    "templateOptions": {
-    "label": "BaseUrl",
-    "placeholder": "",
-    "required": true,
-    "rows": 1
-    }
+        "key": "BaseUrl",
+        "type": "textarea",
+        "defaultValue": "https://api.eu.adp.com",
+        "templateOptions": {
+            "label": "BaseUrl",
+            "placeholder": "",
+            "required": true,
+            "rows": 1
+        }
     },
     {
-    "key": "ClientID",
-    "type": "textarea",
-    "defaultValue": "",
-    "templateOptions": {
-    "label": "ClientID",
-    "placeholder": "",
-    "required": true,
-    "rows": 1
-    }
+        "key": "ClientID",
+        "type": "textarea",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "ClientID",
+            "placeholder": "",
+            "required": true,
+            "rows": 1
+        }
     },
     {
-    "key": "ClientSecret",
-    "type": "textarea",
-    "defaultValue": "",
-    "templateOptions": {
-    "label": "ClientSecret",
-    "placeholder": "",
-    "required": true,
-    "rows": 1
-    }
+        "key": "ClientSecret",
+        "type": "textarea",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "ClientSecret",
+            "placeholder": "",
+            "required": true,
+            "rows": 1
+        }
     },
     {
-    "key": "CertificatePath",
-    "type": "textarea",
-    "defaultValue": "",
-    "templateOptions": {
-    "label": "CertificatePath",
-    "placeholder": "path to adp.pfx",
-    "required": true,
-    "rows": 1
-    }
+        "key": "CertificatePath",
+        "type": "textarea",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "CertificatePath",
+            "placeholder": "path to adp.pfx",
+            "required": true,
+            "rows": 1
+        }
     },
     {
-    "key": "CertificatePassword",
-    "type": "input",
-    "defaultValue": "",
-    "templateOptions": {
-    "label": "CertificatePassword",
-    "type": "password",
-    "placeholder": "Please enter a password",
-    "required": true
+        "key": "CertificatePassword",
+        "type": "input",
+        "defaultValue": "",
+        "templateOptions": {
+            "label": "CertificatePassword",
+            "type": "password",
+            "placeholder": "Please enter a password",
+            "required": true
+        }
     }
-    },
-    {
-    "key": "ProxyServer",
-    "type": "textarea",
-    "defaultValue": "",
-    "templateOptions": {
-    "label": "ProxyServer",
-    "placeholder": "",
-    "required": false,
-    "rows": 1
-    }
-    }
-    ]
+]
